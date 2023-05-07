@@ -11,7 +11,7 @@ public class ThePieceBehavior : MonoBehaviour
 
     private Vector2 mousePosition; //A Vector 2 variable containing the Vector2 position of the mouseposition
 
-    private float deltaX, deltaY; //These floats contains the x and y offsets of center of piece place and the touch position.
+    private float deltaX, deltaY; //These floats contains the x and y offsets of center of puzzle piece and the touch position.
 
     public static bool locked1; //This boolean will be set active to true, when the first puzzle piece is in the right location.
     public static bool locked2; //This boolean will be set active to true, when the second puzzle piece is in the right location.
@@ -59,8 +59,8 @@ public class ThePieceBehavior : MonoBehaviour
                 case TouchPhase.Began: //This case statement checks when a finger has touched the screen
                     if (GetComponent<Collider2D>() == Physics2D.OverlapPoint(touchPos)) //This if statement checks if the Collider2D component on the gameobject is the same as the position of the pressed touch on the screen
                     {
-                        deltaX = touchPos.x - transform.position.x; //Calculation of the offset between the touch position and the piece place's position
-                        deltaY = touchPos.y - transform.position.y; //Calculation of the offset between the touch position and the piece place's position
+                        deltaX = touchPos.x - transform.position.x; //Calculation of the offset between the touch position and the puzzle piece's position
+                        deltaY = touchPos.y - transform.position.y; //Calculation of the offset between the touch position and the puzzle piece's position
                     }
                     break; //Break statement to end the case statement
                 
