@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PuzzleButton
+  - Brik1
+  - Brik2
+  - Brik3
+  - Brik4
   layers:
   - Default
   - TransparentFX

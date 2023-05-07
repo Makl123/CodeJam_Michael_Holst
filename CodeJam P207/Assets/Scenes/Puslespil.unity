@@ -1319,27 +1319,14 @@ GameObject:
   - component: {fileID: 1174332236}
   - component: {fileID: 1174332235}
   - component: {fileID: 1174332234}
-  - component: {fileID: 1174332233}
+  - component: {fileID: 1174332239}
   m_Layer: 0
   m_Name: Puslespilsbrik (2)
-  m_TagString: Untagged
+  m_TagString: Brik4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1174332233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174332232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e087eaec2bd3d4547a4742aefe60604b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  piece4Place: {fileID: 755002502}
 --- !u!61 &1174332234
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1516,6 +1503,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174332239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174332232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8677cd8f4c150c43baa54d83bba2b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePlaces:
+  - {fileID: 1560390962}
+  - {fileID: 711550234}
+  - {fileID: 143114372}
+  - {fileID: 755002502}
 --- !u!1 &1442205644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,27 +1959,14 @@ GameObject:
   - component: {fileID: 1759937143}
   - component: {fileID: 1759937142}
   - component: {fileID: 1759937141}
-  - component: {fileID: 1759937140}
+  - component: {fileID: 1759937146}
   m_Layer: 0
   m_Name: Puslespilsbrik (1)
-  m_TagString: Untagged
+  m_TagString: Brik2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1759937140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759937139}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25f7063a2957da946b05987e03aa7503, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  piece2Place: {fileID: 711550234}
 --- !u!61 &1759937141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2152,6 +2143,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1759937146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759937139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8677cd8f4c150c43baa54d83bba2b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePlaces:
+  - {fileID: 1560390962}
+  - {fileID: 711550234}
+  - {fileID: 143114372}
+  - {fileID: 755002502}
 --- !u!1 &1813901738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,27 +2307,14 @@ GameObject:
   - component: {fileID: 1952898640}
   - component: {fileID: 1952898639}
   - component: {fileID: 1952898638}
-  - component: {fileID: 1952898637}
+  - component: {fileID: 1952898643}
   m_Layer: 0
   m_Name: Puslespilsbrik (3)
-  m_TagString: Untagged
+  m_TagString: Brik3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1952898637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952898636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52a940914ae061478e964f1f04722bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  piece3Place: {fileID: 143114372}
 --- !u!61 &1952898638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2496,6 +2491,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952898643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952898636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8677cd8f4c150c43baa54d83bba2b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePlaces:
+  - {fileID: 1560390962}
+  - {fileID: 711550234}
+  - {fileID: 143114372}
+  - {fileID: 755002502}
 --- !u!1 &2011181540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,27 +2654,14 @@ GameObject:
   - component: {fileID: 2097208025}
   - component: {fileID: 2097208024}
   - component: {fileID: 2097208023}
-  - component: {fileID: 2097208022}
+  - component: {fileID: 2097208028}
   m_Layer: 0
   m_Name: Puslespilsbrik (0)
-  m_TagString: Untagged
+  m_TagString: Brik1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2097208022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097208021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd2dc8418a66384a9ff4589d4cdd829, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  piece1Place: {fileID: 1560390962}
 --- !u!61 &2097208023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2839,3 +2838,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097208028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097208021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8677cd8f4c150c43baa54d83bba2b5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  piecePlaces:
+  - {fileID: 1560390962}
+  - {fileID: 711550234}
+  - {fileID: 143114372}
+  - {fileID: 755002502}
